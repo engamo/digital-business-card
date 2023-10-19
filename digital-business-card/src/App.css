@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+ 
+}
+.main-container {
+  width: 317px;
+  height: auto;
+  background: #1A1B21;
+  border-radius: 10px;
+}
+
+.info-container {
+  color: #DCDCDC;
+}
+.info-image {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.info-name {
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.info-role {
+  color: #F3BF99;
+  text-align: center;
+  font-size: 12.8px;
+  font-weight: 400;
+}
+.info-website {
+  color: #F5F5F5;
+  text-align: center;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%; 
+}
+.info-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 9px;
+}
+.info-button {
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray-700, #374151);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px; 
+}
+.info-button2 {
+  background: #5093E2;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px; 
+}
+.info-icons {
+  font-size: 16px;
+}
+.about-container {
+  color: #DCDCDC;
+  margin: 40px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.about-title {
+  color: #F5F5F5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.about-text {
+  color: #DCDCDC;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  padding: 20px;
+}
+.icons {
+  padding: 8px;
+  background: #918E9B;
+  font-size: 24px;
+  border-radius: 5px;
+}
