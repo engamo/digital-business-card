@@ -3,11 +3,11 @@ function About() {
     <section className="about-container">
       <div>
         <h2 className="about-title">About</h2>
-        <p className="about-text">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+        <p className="about-text">I work as a front-end developer, and my passion lies in simplifying processes and automating everyday tasks. I'm dedicated to staying updated on security measures and industry best practices, and I'm constantly seeking opportunities to expand my knowledge.</p>
       </div>
       <div>
         <h2 className="about-title">Interests</h2>
-        <p className="about-text">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
+        <p className="about-text">Food lover. Reader. Coder. Entrepreneur. Sport man. Game ninja</p>
       </div>
     </section>
   )

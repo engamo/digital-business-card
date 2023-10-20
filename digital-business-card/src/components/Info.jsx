@@ -8,11 +8,11 @@ function Info() {
       <img src="../mustapha-anthonio.jpg" alt="" className="info-image"/>
       <h1 className="info-name">Mustapha Anthonio</h1>
       <p className="info-role">Frontend Developer</p>
-      <p className="info-website">mustaphaanthonio.website</p>
+      <a href="https://portfolio-project-liard-eight.vercel.app/" className='info-link'><p className="info-website">mustaphaanthonio.website</p></a>
       <div>
         <span className='info-button-container'>
-          <button className='info-button info-button1'><FontAwesomeIcon icon={faEnvelope} className='info-icons'/>Email</button>
-          <button className='info-button info-button2'><FontAwesomeIcon icon={faLinkedin} className='info-icons'/>Linkedin</button>
+          <a href="mailto:engamo123@gmail.com" className='info-link'><button className='info-button info-button1'><FontAwesomeIcon icon={faEnvelope} className='info-icons email-icon'/>Email</button></a>
+          <a href="https://www.linkedin.com/in/mustapha-anthonio?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='info-link'><button className='info-button info-button2'><FontAwesomeIcon icon={faLinkedin} className='info-icons'/>Linkedin</button></a>
         </span>
       </div>
     </section>
